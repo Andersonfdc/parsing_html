@@ -6,11 +6,7 @@ Este projeto consiste em um script Bash que permite extrair domínios de uma pá
 
 ### Funcionamento
 
-  * Baixa uma Página HTML: O script começa por baixar uma página HTML a partir de uma URL especificada. Isso pode ser feito da seguinte maneira:
-
-    ~~~bash
-    ./meu_script.sh exemplo.com.br
-    ~~~
+  * Baixa uma Página HTML: O script começa por baixar uma página HTML a partir de uma URL especificada.
 
   * Extrai e Filtra Domínios: O script analisa a página HTML baixada e extrai os domínios contidos nela. Os domínios são filtrados para garantir que apenas os válidos sejam selecionados.
 
@@ -21,7 +17,7 @@ Este projeto consiste em um script Bash que permite extrair domínios de uma pá
 ### Exemplo de Uso
 
 ~~~bash
-./meu_script.sh http://exemplo.com/pagina.html
+./meu_script.sh exemplo.com.br
 ~~~
 
 ### Requisitos
@@ -29,7 +25,7 @@ Este projeto consiste em um script Bash que permite extrair domínios de uma pá
   * Utilitário wget para baixar páginas HTML
   * Acesso à Internet para buscar os endereços IP
     
-###Notas Importantes
+### Notas Importantes
 
   * Este script é destinado a fins de análise de segurança e pentests em sites da web legais e autorizados.
   * Certifique-se de que o comando ```host``` esteja disponível em seu sistema, pois ele é usado para buscar os IPs dos domínios.
