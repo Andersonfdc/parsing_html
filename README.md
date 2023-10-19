@@ -10,7 +10,7 @@ Este projeto consiste em um script Bash que permite extrair domínios de uma pá
 
   * Extrai e Filtra Domínios: O script analisa a página HTML baixada e extrai os domínios contidos nela. Os domínios são filtrados para garantir que apenas os válidos sejam selecionados.
 
-  * Resultados: O script cria um arquivo de texto ($1.ip.txt) para salvar a lista de domínios encontrados e exibe os resultados na saída padrão.
+  * Resultados: O script cria um arquivo de texto para salvar a lista de domínios encontrados e exibe os resultados na saída padrão.
 
   * Busca Endereços IP: Para cada domínio extraído, o script utiliza o comando ```host``` para buscar os endereços IP associados. Os resultados são exibidos em uma tabela, incluindo o número da linha, o IP e o domínio.
 
