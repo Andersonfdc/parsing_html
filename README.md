@@ -17,7 +17,7 @@ Este projeto consiste em um script Bash que permite extrair domínios de uma pá
 ### Exemplo de Uso
 
 ~~~bash
-./meu_script.sh exemplo.com.br
+./parsingHTML.sh exemplo.com.br
 ~~~
 
 ### Requisitos
