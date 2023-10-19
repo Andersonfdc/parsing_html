@@ -1,15 +1,15 @@
-#PARSING HTML
+# PARSING HTML
 
-###Descrição
+### Descrição
 
 Este projeto consiste em um script Bash que permite extrair domínios de uma página HTML e obter informações sobre esses domínios, como os endereços IP associados. A ferramenta é útil para análise e reconhecimento de ativos durante pentests ou avaliações de segurança em sites da web.
 
-###Funcionamento
+### Funcionamento
 
   * Baixa uma Página HTML: O script começa por baixar uma página HTML a partir de uma URL especificada. Isso pode ser feito da seguinte maneira:
 
     ~~~bash
-    ./meu_script.sh exemplo.com.BR
+    ./meu_script.sh exemplo.com.br
     ~~~
 
   * Extrai e Filtra Domínios: O script analisa a página HTML baixada e extrai os domínios contidos nela. Os domínios são filtrados para garantir que apenas os válidos sejam selecionados.
@@ -18,13 +18,13 @@ Este projeto consiste em um script Bash que permite extrair domínios de uma pá
 
   * Busca Endereços IP: Para cada domínio extraído, o script utiliza o comando ```host``` para buscar os endereços IP associados. Os resultados são exibidos em uma tabela, incluindo o número da linha, o IP e o domínio.
 
-###Exemplo de Uso
+### Exemplo de Uso
 
 ~~~bash
 ./meu_script.sh http://exemplo.com/pagina.html
 ~~~
 
-###Requisitos
+### Requisitos
 
   * Utilitário wget para baixar páginas HTML
   * Acesso à Internet para buscar os endereços IP
